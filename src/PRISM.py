@@ -4,14 +4,12 @@ import numpy as np
 from pathlib import Path
 
 
-# Config
+users = ["user0","user1", "user2", "user3", "user4"] 
 
-# need to add user1 later
-users = ["user0", "user2", "user3", "user4"] 
-
-questions_path = Path("../datasets/PRISM-questions.json")
-answers_xlsx_path = Path("../datasets/PRISM-answers.xlsx")
+questions_path = Path("../datasets/PRISM_questions.json")
+answers_xlsx_path = Path("../datasets/PRISM_answers.xlsx")
 out_dir = Path("../datasets")
+
 
 
 # Load PRISM questions

@@ -3,8 +3,7 @@ myenv/
 
 # datasets
 datasets/*
-!datasets/PRISM-questions.json
-
-# private answers
-datasets/PRISM-answers.xlsx
-datasets/user*.json
+!datasets/PRISM_questions.json
+!datasets/PVQ_questions.json
+!datasets/PVQ_results.json
+!datasets/PVQ*.csv
