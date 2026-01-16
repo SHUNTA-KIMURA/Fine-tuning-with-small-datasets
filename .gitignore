@@ -7,3 +7,6 @@ datasets/*
 !datasets/PVQ_questions.json
 !datasets/PVQ_results.json
 !datasets/PVQ*.csv
+
+# cache
+src/__pycache__
