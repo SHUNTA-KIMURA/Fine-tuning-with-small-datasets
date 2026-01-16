@@ -1,0 +1,2 @@
+user,model_MSE,ref_model_MSE,model_overall_mean,ref_overall_mean,model_spearman_rho,model_spearman_p,ref_spearman_rho,ref_spearman_p
+user2,0.9863472222287168,0.6524166666710556,4.175,4.55,0.0061354311913984876,0.9865792494806584,0.006211180124223603,0.9864135676340428

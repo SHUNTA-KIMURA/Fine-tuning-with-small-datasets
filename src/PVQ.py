@@ -8,7 +8,7 @@ import numpy as np
 # ----------------------------
 # Paths
 # ----------------------------
-PVQ_JSON_PATH = Path("../datasets/PVQ_result.json")
+PVQ_JSON_PATH = Path("../datasets/PVQ_result_beta=1.0.json")
 PVQ_XLSX_PATH = Path("../datasets/PVQ_answers.xlsx")
 
 # ----------------------------
@@ -191,6 +191,6 @@ print("\n=== Per-value Squared Errors (wide) ===")
 print(df_se_wide)
 
 # If you want to save outputs:
-df_table.to_csv("../datasets/PVQ_value_scores_centered.csv", index=False)
-df_mse.to_csv("../datasets/PVQ_mse_summary.csv", index=False)
-df_se_wide.to_csv("../datasets/PVQ_squared_errors_by_value.csv", index=False)
+df_table.to_csv("../datasets/PVQ_value_scores_centered_beta=1.0.csv", index=False)
+df_mse.to_csv("../datasets/PVQ_mse_summary_beta=1.0.csv", index=False)
+df_se_wide.to_csv("../datasets/PVQ_squared_errors_by_value_beta=1.0.csv", index=False)
